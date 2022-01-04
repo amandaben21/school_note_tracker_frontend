@@ -9,7 +9,7 @@ import thunk from 'redux-thunk';
 import App from './containers/App'
 import { notesReducer } from './reducers/notesReducer'
 
-import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const store = createStore( 
   notesReducer, 
